@@ -16,11 +16,16 @@ def run():
     }
 
     # print(poblacion_paises['Bolivia'])
+
     # for pais in poblacion_paises.keys():
     #     print(pais)
 
-    for pais in poblacion_paises.values():
-        print(pais)
+    # for pais in poblacion_paises.values():
+    #     print(pais)
+
+    for pais, poblacion in poblacion_paises.items():
+        print(pais + ' tiene ' + str(poblacion) + ' habitantes')
+
 
 
         
